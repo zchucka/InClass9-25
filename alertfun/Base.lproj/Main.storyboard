@@ -30,6 +30,7 @@
                                 <state key="normal" title="Echo Back"/>
                                 <connections>
                                     <action selector="echoBackPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="UdM-Ct-pbx"/>
+                                    <action selector="echoBackPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pTm-Wn-qEH"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             // add an action to the action sheet/alert
             // we will add one for okay
             alertController.addAction(UIAlertAction(title: "okay", style: .default, handler: nil)) // we will talk about handler and closure next week
+            present(alertController, animated: true, completion: nil)
         }
     }
 }
